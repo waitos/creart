@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Soporte</title>
+</head>
+<body>
+    <h1>Página de Soporte de Mi App</h1>
+    <p>Si tienes alguna pregunta o enfrentas problemas con nuestra aplicación, no dudes en contactarnos directamente en: <a href="mailto:tucorreo@example.com">tucorreo@example.com</a></p>
+</body>
+</html>
+Sustituye tucorreo@example.com con tu dirección de correo electrónico real.
+
+2. Formulario de contacto usando Formspree:
+Primero, deberás registrarte en Formspree y obtener un link de acción para tu formulario.
+
+Una vez tengas eso:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Soporte</title>
+</head>
+<body>
+    <h1>Página de Soporte de Mi App</h1>
+    <p>Si tienes alguna pregunta o enfrentas problemas con nuestra aplicación, llena el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    
+    <form action="https://formspree.io/TU_ID_FORMSPREE" method="POST">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="_replyto" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+Reemplaza TU_ID_FORMSPREE con el ID o URL de acción que Formspree te proporcionó para tu formulario.
+
+Con estas opciones, tendrás una manera de permitir que los usuarios se comuniquen contigo. Si eliges la opción de Formspree, asegúrate de seguir los pasos en su sitio web para configurar tu formulario correctamente.
+
+
+
+
+
+
